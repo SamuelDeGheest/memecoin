@@ -7,8 +7,8 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      color: #222;
+      background-color: #1c079d;
+      color: #01b3c9;
       margin: 0;
       padding: 40px;
       line-height: 1.6;
@@ -18,14 +18,34 @@
     h1 {
       text-align: center;
       font-size: 3em;
-      color: #147995;
+      color: #41dce8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+    h1 img {
+      width: 50px;
+      height: 50px;
     }
     h2 {
-      color: #147995;
+      color: #41dce8;
       margin-top: 40px;
     }
     ul {
       padding-left: 20px;
+    }
+    .button {
+      display: inline-block;
+      background-color: #41dce8;
+      color: #fff;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
     }
     footer {
       margin-top: 60px;
@@ -38,7 +58,7 @@
   </style>
 </head>
 <body>
-  <h1>@ MEMECOIN @</h1>
+  <h1><img src="meme-coin-logo.png" alt="Logo"> MEMECOIN <img src="meme-coin-logo.png" alt="Logo"></h1>
 
   <h2>Total Coins</h2>
   <p>The total supply of Meme Coin (MEME) is 69,911,000 tokens. This amount is fixed and will never be increased. Meme Coin is designed as a community-driven token, with transparency and fairness at its core.</p>
@@ -71,6 +91,12 @@
     <li>Wait a few seconds — your MEME Coin will appear in your wallet!</li>
     <li>Always verify the contract address and leave some ETH for gas fees.</li>
   </ul>
+
+  <div>
+    <button class="button">Twitter</button>
+    <button class="button">Telegram</button>
+    <button class="button">Etherscan</button>
+  </div>
 
   <h2>Where Can You Find Us</h2>
 
